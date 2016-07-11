@@ -6,6 +6,7 @@
 // IDECodeSnippetIdentifier: 247A1538-3248-42C0-94DC-4332862B6625
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.C
 // IDECodeSnippetRelativePriority: 0
+// IDECodeSnippetUserSnippet: 1
 // IDECodeSnippetVersion: 1
 typedef NS_OPTIONS(NSUInteger, <#MyEnum#>) {
     <#MyEnumValueA#> = 1 << 0,

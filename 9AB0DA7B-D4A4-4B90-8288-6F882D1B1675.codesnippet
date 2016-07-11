@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string></string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>NSUInteger index = [&lt;#indexSet#&gt; firstIndex];
+while (index != NSNotFound) {
+    &lt;#statements#&gt;
+    index = [&lt;#indexSet#&gt; indexGreaterThanIndex:index];
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>9AB0DA7B-D4A4-4B90-8288-6F882D1B1675</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Enumerate through an index set.</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Enumerate Index Set</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string></string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (&lt;#propertyObjectType#&gt; *)&lt;#propertyName#&gt;
+{
+    [self willAccessValueForKey:@"&lt;#propertyName#&gt;"];
+    &lt;#propertyObjectType#&gt; *value = [self primitiveValueForKey:@"&lt;#propertyName#&gt;"];
+    [self didAccessValueForKey:@"&lt;#propertyName#&gt;"];
+    return value;
+}
+            
+- (void)set&lt;#CapitalizedPropertyName#&gt;:(&lt;#propertyObjectType#&gt; *)value
+{
+    [self willChangeValueForKey:@"&lt;#propertyName#&gt;"];
+    [self setPrimitiveValue:value forKey:@"&lt;#propertyName#&gt;"];
+    [self didChangeValueForKey:@"&lt;#propertyName#&gt;"];
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>5DA67A34-6770-496E-8043-67FBA237CA5D</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>The getter and setter for a property with an object type.</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Core Data Property Accessors (Object Type)</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

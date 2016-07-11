@@ -6,6 +6,7 @@
 // IDECodeSnippetIdentifier: 55A559FF-DE7B-4C1D-BB23-A66EDB9A7B18
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.C
 // IDECodeSnippetRelativePriority: 0
+// IDECodeSnippetUserSnippet: 1
 // IDECodeSnippetVersion: 1
 typedef NS_ENUM(NSUInteger, <#MyEnum#>) {
     <#MyEnumValueA#>,

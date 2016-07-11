@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>keyPathsForValuesAffecting</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>+ (NSSet *)keyPathsForValuesAffecting&lt;#DependentKey#&gt;
+{
+    return [NSSet setWithObjects:@"&lt;#keyPath#&gt;", nil];
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>3A823634-A3B2-43D3-926A-CCBA25DBA340</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Define which keys, when modified, affect the value of the dependent key.</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Objective-C KVO: Values affecting key</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

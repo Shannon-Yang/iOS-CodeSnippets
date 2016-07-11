@@ -5,6 +5,7 @@
 // IDECodeSnippetCompletionScopes: [ClassImplementation,CodeBlock,TopLevel]
 // IDECodeSnippetIdentifier: 63BA5F06-3A66-4853-923C-4C3119D92A18
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Swift
+// IDECodeSnippetUserSnippet: 1
 // IDECodeSnippetVersion: 1
 var <#name#> = <#value#>
         

@@ -7,7 +7,7 @@
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Swift
 // IDECodeSnippetUserSnippet: 1
 // IDECodeSnippetVersion: 2
-//MARK: - UITableViewDataSource
+// MARK: - UITableViewDataSource
 
 extension <#ViewController#>: UITableViewDataSource {
 

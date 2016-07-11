@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>awakeFromFetch</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (void)awakeFromFetch
+{
+    [super awakeFromFetch];
+    &lt;#code to be executed after the receiver has been fetched#&gt;
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>1A891CC8-CB10-4D6D-A05D-4A5B2EAFF6C1</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Called when an NSManagedObject is fetched.</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Core Data -awakeFromFetch Method</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
