@@ -3,11 +3,11 @@
 //
 // IDECodeSnippetCompletionPrefix: @try
 // IDECodeSnippetCompletionScopes: [CodeBlock]
-// IDECodeSnippetIdentifier: 5A500F6D-22F9-415A-BFD2-AC633A2B696F
+// IDECodeSnippetIdentifier: 9772257C-81F1-44B1-96A9-7A80190B67A7
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
 // IDECodeSnippetRelativePriority: 1
 // IDECodeSnippetUserSnippet: 1
-// IDECodeSnippetVersion: 1
+// IDECodeSnippetVersion: 2
 @try {
     <#Code that can potentially throw an exception#>
 } @catch (NSException *exception) {
