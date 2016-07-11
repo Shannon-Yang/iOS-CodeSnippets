@@ -2,6 +2,7 @@
 // Execute a block after a set amount of time.
 //
 // GCD: Dispatch After
+// gcd: _dispatch_after
 // IDECodeSnippetCompletionPrefix: dispatch_after snippet
 // IDECodeSnippetCompletionScopes: [CodeBlock]
 // IDECodeSnippetIdentifier: 7A8FBEEF-B793-4F61-8368-28ED63CD8956
