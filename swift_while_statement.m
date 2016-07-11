@@ -3,10 +3,10 @@
 //
 // IDECodeSnippetCompletionPrefix: while
 // IDECodeSnippetCompletionScopes: [CodeBlock]
-// IDECodeSnippetIdentifier: 93E696A8-8800-404D-85D1-B59A77F3E1B9
+// IDECodeSnippetIdentifier: 09B0542F-F356-412F-8E13-C6EBF50A188E
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Swift
 // IDECodeSnippetUserSnippet: 1
-// IDECodeSnippetVersion: 1
+// IDECodeSnippetVersion: 2
 while <#condition#> {
     <#code#>
 }
