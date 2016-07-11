@@ -2,11 +2,11 @@
 // Defines a set of behaviors.
 //
 // IDECodeSnippetCompletionPrefix: protocol
-// IDECodeSnippetCompletionScopes: [ClassImplementation,TopLevel]
-// IDECodeSnippetIdentifier: 0A9191DA-B467-4604-B3D0-C6AADE78089E
+// IDECodeSnippetCompletionScopes: [TopLevel,ClassImplementation]
+// IDECodeSnippetIdentifier: 06A3C890-F0F4-40FF-BAFB-A7BA54044204
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Swift
 // IDECodeSnippetUserSnippet: 1
-// IDECodeSnippetVersion: 1
+// IDECodeSnippetVersion: 2
 protocol <#name#> {
     <#requirements#>
 }
