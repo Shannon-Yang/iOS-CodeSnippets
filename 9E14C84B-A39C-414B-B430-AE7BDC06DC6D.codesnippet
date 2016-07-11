@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>nsoptions</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>typedef NS_OPTIONS(NSUInteger, &lt;#MyEnum#&gt;) {
+    &lt;#MyEnumValueA#&gt; = 1 &lt;&lt; 0,
+    &lt;#MyEnumValueB#&gt; = 1 &lt;&lt; 1,
+    &lt;#MyEnumValueC#&gt; = 1 &lt;&lt; 2,
+};
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>9E14C84B-A39C-414B-B430-AE7BDC06DC6D</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Declare a new enumerated type with combinable bitmask values.</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Enumerated Type Declaration (NS_OPTIONS)</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

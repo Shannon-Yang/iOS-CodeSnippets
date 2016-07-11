@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>dispatch_once snippet</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>static dispatch_once_t onceToken;
+dispatch_once(&amp;onceToken, ^{
+    &lt;#code to be executed once#&gt;
+});
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>F0A04F44-AAA1-4A58-8107-D269C9671A1A</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Execute code only once, such as for initializing a singleton.</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>gcd:_dispatch_once</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
