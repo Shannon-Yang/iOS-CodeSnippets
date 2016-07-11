@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>swift-coredatafetch</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>  let fetchRequest = NSFetchRequest(entityName: &lt;#T##String#&gt;)
+        fetchRequest.predicate = NSPredicate(format: &lt;#T##String#&gt;, argumentArray: &lt;#T##[AnyObject]?#&gt;)
+        let sortDescriptor = NSSortDescriptor(key: &lt;#T##String?#&gt;, ascending: &lt;#T##Bool#&gt;)
+        fetchRequest.sortDescriptors = [sortDescriptor]
+        
+        typealias FetchedEntity = &lt;#Entity#&gt;
+        
+        let results: [FetchedEntity]
+        do {
+            results = try context.executeFetchRequest(fetchRequest) as! [FetchedEntity]
+        } catch {
+            print(error)
+        }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>17615380-F9BD-4A03-971F-DA9DBABF2A44</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Simple Core Data Fetch with Predicate &amp; Sort Descriptor</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Swift-Core Data Fetch</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

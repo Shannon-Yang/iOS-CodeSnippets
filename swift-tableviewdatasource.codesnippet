@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>swift-tableviewdatasource</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>//MARK: - UITableViewDataSource
+
+extension &lt;#ViewController#&gt;: UITableViewDataSource {
+
+	func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -&gt; Int {
+		return &lt;#expersion#&gt;
+	}
+
+	func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -&gt; UITableViewCell {
+		let cell = tableView.dequeueReusableCellWithIdentifier(&lt;#identifier#&gt;, forIndexPath: indexPath)
+		guard let &lt;#customCellName#&gt; = cell as? &lt;#customCellType#&gt; else {
+			return cell
+		}
+
+		&lt;#Configure Cell#&gt;
+
+		return cell
+	}
+}
+
+//MARK: - UITableViewDelegate
+extension &lt;#ViewController#&gt;: UITableViewDelegate {
+
+	func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -&gt; CGFloat {
+		return &lt;#expersion#&gt;
+	}
+	func tableView(tableView: UITableView, estimatedHeightForRowAtIndexPath indexPath: NSIndexPath) -&gt; CGFloat {
+		return &lt;#expersion#&gt;
+	}
+
+	func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+
+	}
+
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>B9484A2C-9CBC-40CE-9578-03BC308EE5FD</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Swift-UITableViewDataSource UITableViewDelegate</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Swift-UITableViewDataSource UITableViewDelegate</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
