@@ -3,11 +3,11 @@
 //
 // IDECodeSnippetCompletionPrefix: initWithFrame
 // IDECodeSnippetCompletionScopes: [ClassImplementation]
-// IDECodeSnippetIdentifier: 807AC058-0340-4358-A2AB-246576154DC9
+// IDECodeSnippetIdentifier: 7F2267C0-800F-4505-958E-3FA99B7B8ABC
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
 // IDECodeSnippetPlatformFamily: macosx
 // IDECodeSnippetUserSnippet: 1
-// IDECodeSnippetVersion: 1
+// IDECodeSnippetVersion: 2
 - (instancetype)initWithFrame:(NSRect)frame
 {
     self = [super initWithFrame:frame];
