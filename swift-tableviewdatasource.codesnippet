@@ -50,9 +50,9 @@ extension &lt;#ViewController#&gt;: UITableViewDelegate {
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Swift-UITableViewDataSource UITableViewDelegate</string>
+	<string>Swift UITableViewDataSource &amp;&amp; UITableViewDelegate</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift-UITableViewDataSource UITableViewDelegate</string>
+	<string>Swift UITableViewDataSource &amp;&amp; UITableViewDelegate</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
