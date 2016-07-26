@@ -17,9 +17,9 @@
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>for-in loop that casts objects inline</string>
+	<string>Swift for-in loop that casts objects inline</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift for-in loop with casting</string>
+	<string>Swift For-in Loop With Casting</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

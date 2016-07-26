@@ -18,7 +18,7 @@ let documentsDirectoryURL = NSURL.fileURLWithPath(path)</string>
 	<key>IDECodeSnippetSummary</key>
 	<string>Document directory path snippet for Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift document directory</string>
+	<string>Swift Document Directory</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

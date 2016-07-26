@@ -18,9 +18,9 @@
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>swift lazy property</string>
+	<string>Swift Lazy Property</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift-LazyProperty</string>
+	<string>Swift LazyProperty</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -35,9 +35,9 @@
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>UIViewController lifecycle snippet for Swift</string>
+	<string>UIViewController Lifecycle Snippet For Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift UIViewController lifecycle</string>
+	<string>Swift UIViewController Lifecycle</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
