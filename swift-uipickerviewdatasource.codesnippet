@@ -40,9 +40,9 @@ extension &lt;#Class#&gt;: UIPickerViewDelegate {
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Swift-UIPackerViewDataSource UIPickerViewDelegate</string>
+	<string>Swift UIPackerViewDataSource &amp;&amp; UIPickerViewDelegate</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift-UIPickerViewDataSource UIPickerViewDelegate</string>
+	<string>Swift UIPickerViewDataSource &amp;&amp; UIPickerViewDelegate</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
