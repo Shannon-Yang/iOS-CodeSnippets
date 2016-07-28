@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>swift-uitextviewdelegate</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>//MARK: - UITextViewDelegate
+
+extension &lt;#ViewController#&gt;: UITextViewDelegate {
+
+	func textViewShouldBeginEditing(textView: UITextView) -&gt; Bool {
+		return true
+	}
+    
+	func textViewShouldEndEditing(textView: UITextView) -&gt; Bool {
+		return true
+	}
+
+	func textViewDidBeginEditing(textView: UITextView) {
+
+	}
+
+	func textViewDidEndEditing(textView: UITextView) {
+
+	}
+
+	func textView(textView: UITextView, shouldChangeTextInRange range: NSRange, replacementText text: String) -&gt; Bool {
+
+	}
+
+	func textViewDidChange(textView: UITextView) {
+
+	}
+
+	func textViewDidChangeSelection(textView: UITextView) {
+
+	}
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>E5FD79B5-0372-42B9-B4EF-87D08DDFA396</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Swift UITextViewDelegate</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Swift UITextViewDelegate</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
