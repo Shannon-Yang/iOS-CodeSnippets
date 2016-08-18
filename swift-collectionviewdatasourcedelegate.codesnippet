@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>swift-collectionviewdatasourcedelegate</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
@@ -56,7 +58,7 @@ extension &lt;#ViewController#&gt;: UICollectionViewDelegate {
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>swift-collectionviewdatasourcedelegate</string>
+	<string>Swift CollectionViewDataSource &amp;&amp; CollectionViewDelegate</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>Swift CollectionViewDataSource &amp;&amp; CollectionViewDelegate</string>
 	<key>IDECodeSnippetUserSnippet</key>
