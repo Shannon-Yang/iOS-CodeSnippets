@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>swift-collectiondelegateflowlayout</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// MARK: - UICollectionViewDelegateFlowLayout
+
+extension &lt;#ViewController#&gt;: UICollectionViewDelegateFlowLayout {
+
+	func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -&gt; CGSize {
+		return&lt;#expression#&gt;
+	}
+
+	func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAtIndex section: Int) -&gt; UIEdgeInsets {
+		return&lt;#expression#&gt;
+	}
+
+	func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAtIndex section: Int) -&gt; CGFloat {
+		return&lt;#expression#&gt;
+	}
+
+	func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAtIndex section: Int) -&gt; CGFloat {
+		return&lt;#expression#&gt;
+	}
+
+	func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -&gt; CGSize {
+		return&lt;#expression#&gt;
+	}
+
+	func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForFooterInSection section: Int) -&gt; CGSize {
+		return&lt;#expression#&gt;
+	}
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>E353BCB7-3CFB-45E4-9023-A46B43539753</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Swift CollectionViewDelegateFlowLayout</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Swift CollectionViewDelegateFlowLayout</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
