@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>&lt;#View#&gt;.snp_makeConstraints {$0.edges.equalToSuperview()}</string>
+	<string>&lt;#View#&gt;.snp.makeConstraints {$0.edges.equalToSuperview()}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>BD40D735-137F-4985-889D-517848F4677B</string>
 	<key>IDECodeSnippetLanguage</key>
