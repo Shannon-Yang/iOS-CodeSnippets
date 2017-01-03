@@ -9,7 +9,7 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>dispatch_after(dispatch_time(DISPATCH_TIME_NOW, Int64(1 * Double(NSEC_PER_SEC))), dispatch_get_main_queue()) { () -&gt; Void in
+	<string>DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(&lt;#seconds#&gt;)) {
     
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
@@ -19,7 +19,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>GCD dispatch_after snippet for Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift Dispatch_after</string>
+	<string>Swift dispatch_after</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

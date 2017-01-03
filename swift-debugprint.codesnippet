@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string> debugPrint("🔥🔥🔥🔥🔥----&gt; \(&lt;#expersion#&gt;) &lt;---- &lt; Class: \(self.dynamicType) Function:\(#function) Line: \(#line) &gt;🔥🔥🔥🔥🔥")</string>
+	<string>debugPrint("🔥🔥🔥🔥🔥----&gt; \(&lt;#expersion#&gt;) &lt;---- &lt; Class: \(type(of: self)) Function:\(#function) Line: \(#line) &gt;🔥🔥🔥🔥🔥")</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>9796A16F-66E0-447A-9583-D50700ED704D</string>
 	<key>IDECodeSnippetLanguage</key>

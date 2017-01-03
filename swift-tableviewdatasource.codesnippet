@@ -12,39 +12,40 @@
 	<string>//MARK: - UITableViewDataSource
 
 extension &lt;#ViewController#&gt;: UITableViewDataSource {
-
-	func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -&gt; Int {
-		return &lt;#expersion#&gt;
-	}
-
-	func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -&gt; UITableViewCell {
-		let cell = tableView.dequeueReusableCellWithIdentifier(&lt;#identifier#&gt;, forIndexPath: indexPath)
-		guard let &lt;#customCellName#&gt; = cell as? &lt;#customCellType#&gt; else {
-			return cell
-		}
-
-		&lt;#Configure Cell#&gt;
-
-		return cell
-	}
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -&gt; Int {
+        return &lt;#expersion#&gt;
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -&gt; UITableViewCell {
+        let cell = tableView.dequeueReusableCellWithIdentifier(&lt;#identifier#&gt;, forIndexPath: indexPath)
+        guard let &lt;#customCellName#&gt; = cell as? &lt;#customCellType#&gt; else {
+            return cell
+        }
+        
+        &lt;#Configure Cell#&gt;
+        
+        return cell
+    }
 }
 
 //MARK: - UITableViewDelegate
+
 extension &lt;#ViewController#&gt;: UITableViewDelegate {
-
-	func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -&gt; CGFloat {
-		return &lt;#expersion#&gt;
-	}
-	func tableView(tableView: UITableView, estimatedHeightForRowAtIndexPath indexPath: NSIndexPath) -&gt; CGFloat {
-		return &lt;#expersion#&gt;
-	}
-
-	func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-
-	}
-
-}
-</string>
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -&gt; CGFloat {
+        return &lt;#expersion#&gt;
+    }
+    
+    func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -&gt; CGFloat {
+        return &lt;#expersion#&gt;
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+    }
+    
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>B9484A2C-9CBC-40CE-9578-03BC308EE5FD</string>
 	<key>IDECodeSnippetLanguage</key>

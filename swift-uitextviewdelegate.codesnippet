@@ -6,40 +6,40 @@
 	<string>swift-uitextviewdelegate</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>//MARK: - UITextViewDelegate
 
 extension &lt;#ViewController#&gt;: UITextViewDelegate {
-
-	func textViewShouldBeginEditing(textView: UITextView) -&gt; Bool {
-		return true
-	}
     
-	func textViewShouldEndEditing(textView: UITextView) -&gt; Bool {
-		return true
-	}
-
-	func textViewDidBeginEditing(textView: UITextView) {
-
-	}
-
-	func textViewDidEndEditing(textView: UITextView) {
-
-	}
-
-	func textView(textView: UITextView, shouldChangeTextInRange range: NSRange, replacementText text: String) -&gt; Bool {
-
-	}
-
-	func textViewDidChange(textView: UITextView) {
-
-	}
-
-	func textViewDidChangeSelection(textView: UITextView) {
-
-	}
+    func textViewShouldBeginEditing(_ textView: UITextView) -&gt; Bool {
+        return true
+    }
+    
+    func textViewShouldEndEditing(_ textView: UITextView) -&gt; Bool {
+        return true
+    }
+    
+    func textViewDidBeginEditing(_ textView: UITextView) {
+        
+    }
+    
+    func textViewDidEndEditing(_ textView: UITextView) {
+        
+    }
+    
+    func textView(_ textView: UITextView, shouldChangeTextIn range: NSRange, replacementText text: String) -&gt; Bool {
+        
+    }
+    
+    func textViewDidChange(_ textView: UITextView) {
+        
+    }
+    
+    func textViewDidChangeSelection(_ textView: UITextView) {
+        
+    }
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>E5FD79B5-0372-42B9-B4EF-87D08DDFA396</string>

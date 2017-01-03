@@ -6,34 +6,34 @@
 	<string>swift-uipickerviewdatasource</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>//MARK: - UIPickerViewDataSource
 
 extension &lt;#Class#&gt;: UIPickerViewDataSource {
-
-	func pickerView(pickerView: UIPickerView, numberOfRowsInComponent component: Int) -&gt; Int {
-		&lt;#code#&gt;
-	}
-
-	func numberOfComponentsInPickerView(pickerView: UIPickerView) -&gt; Int {
-		&lt;#code#&gt;
-	}
+    
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -&gt; Int {
+        &lt;#code#&gt;
+    }
+    
+    func numberOfComponents(in pickerView: UIPickerView) -&gt; Int {
+        &lt;#code#&gt;
+    }
 }
 
 //MARK: - UIPickerViewDelegate
 
 extension &lt;#Class#&gt;: UIPickerViewDelegate {
-
-	func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -&gt; String? {
-		&lt;#code#&gt;
-	}
-
-	func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-		&lt;#code#&gt;
-	}
-
+    
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -&gt; String? {
+        &lt;#code#&gt;
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        &lt;#code#&gt;
+    }
+    
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>26EFDA91-FB32-47EF-B8C2-CDCF8B74CA3D</string>

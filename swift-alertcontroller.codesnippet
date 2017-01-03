@@ -9,11 +9,11 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>let alert = UIAlertController(title: &lt;#title#&gt;, message: &lt;#message#&gt;, preferredStyle: .Alert)
-        alert.addAction(UIAlertAction(title: "OK", style: .Default, handler: { (action) -&gt; Void in
-            alert.dismissViewControllerAnimated(true, completion: nil)
+	<string>let alert = UIAlertController(title: &lt;#title#&gt;, message: &lt;#message#&gt;, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { (action) -&gt; Void in
+            alert.dismiss(animated: true, completion: nil)
         }))
-        presentViewController(alert, animated: true, completion: nil)</string>
+        present(alert, animated: true, completion: nil)</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>7B6FA837-9395-4323-937E-8E70DE26CCB8</string>
 	<key>IDECodeSnippetLanguage</key>
