@@ -18,14 +18,14 @@ extension &lt;#ViewController#&gt;: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -&gt; UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier(&lt;#identifier#&gt;, forIndexPath: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: &lt;#identifier#&gt;, forIndexPath: indexPath)
         guard let &lt;#customCellName#&gt; = cell as? &lt;#customCellType#&gt; else {
             return cell
         }
         
         &lt;#Configure Cell#&gt;
         
-        return cell
+        return &lt;#customCellName#&gt;
     }
 }
 
