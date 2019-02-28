@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>swift-refreshprivateselector</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// MARK: - Private Selector
+
+private extension Selector {
+    
+    static let pullDownReload =
+        #selector(&lt;#ViewController#&gt;.pullDownReload)
+    static let pullUpReload =
+        #selector(&lt;#ViewController#&gt;.pullUpReload)
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>DD9A6928-F8B5-4C86-9192-BE1A4355273D</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Swift Refresh Private Selector</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Swift Refresh Private Selector</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

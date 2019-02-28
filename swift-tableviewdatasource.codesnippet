@@ -18,7 +18,7 @@ extension &lt;#ViewController#&gt;: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -&gt; UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: &lt;#identifier#&gt;, forIndexPath: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: &lt;#identifier#&gt;, for: indexPath)
         guard let &lt;#customCellName#&gt; = cell as? &lt;#customCellType#&gt; else {
             return cell
         }

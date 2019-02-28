@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>swift-addmjrefreshcontrols</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>func addRefreshControls() {
+        // 下拉刷新
+        self.tableView.mj_header = MJRefreshNormalHeader(refreshingTarget: self, refreshingAction: .pullDownReload)
+        
+        // 上拉加载
+        self.tableView.mj_footer = MJRefreshAutoNormalFooter(refreshingTarget: self, refreshingAction: .pullUpReload)
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>65D6E137-F9FB-47D6-B73D-337B95FB675E</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Swift Add MJRefresh Controls</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Swift Add MJRefresh Controls</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
