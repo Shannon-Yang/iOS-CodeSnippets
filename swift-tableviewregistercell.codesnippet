@@ -3,24 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>markcollectionviewdelegate</string>
+	<string>swift-tableviewregistercell</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - UICollectionViewDelegate</string>
+	<string>func registerCell() {
+        self.tableView.register(UINib(nibName: String(describing: &lt;#TableViewCell#&gt;.self), bundle: nil), forCellReuseIdentifier: String(describing: &lt;#TableViewCell#&gt;.self))
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>432720E4-F271-4E8F-9FA1-86C1980C4EEB</string>
+	<string>BF0B40F9-EF9B-422F-B5AF-59EE26A598E2</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Mark UICollectionViewDelegate</string>
+	<string>Swift TableView RegisterCell</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Mark UICollectionViewDelegate</string>
+	<string>Swift TableView RegisterCell</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
