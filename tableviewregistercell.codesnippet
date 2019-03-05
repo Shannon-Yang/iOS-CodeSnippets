@@ -10,7 +10,7 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>-(void)registerCell {
-    [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([&lt;#instance#&gt; class]) bundle:nil] forCellReuseIdentifier:NSStringFromClass([&lt;#instance#&gt; class])];
+    [self.tableView registerNib:[UINib nibWithNibName:<#kXXXTableViewCellIdentifier#> bundle:nil] forCellReuseIdentifier:<#kXXXTableViewCellIdentifier#>];
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>70BEF569-AE9C-4A2F-A4E1-F020D9F8E986</string>

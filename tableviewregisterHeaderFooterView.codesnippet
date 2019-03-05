@@ -10,7 +10,7 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>-(void)registerHeaderFooterView {
-    [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([&lt;#instance#&gt; class]) bundle:nil] forHeaderFooterViewReuseIdentifier:NSStringFromClass([&lt;#instance#&gt; class])];
+    [self.tableView registerNib:[UINib nibWithNibName:<#kXXXTableViewCellIdentifier#> bundle:nil] forHeaderFooterViewReuseIdentifier:<#kXXXTableViewCellIdentifier#>];
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>1342AEC5-12B5-4824-9E40-472FD73AA5C9</string>
