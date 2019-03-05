@@ -12,16 +12,16 @@
 	<string>#pragma mark - UITableViewDataSource
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-	return &lt;#section#&gt;;
+    return &lt;#section#&gt;;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
 
-	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:&lt;#@"reuseIdentifier"#&gt; forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([&lt;#Cell#&gt; class]) forIndexPath:indexPath];
 
-	// Configure the cell...
+    // Configure the cell...
 
-	return cell;
+    return cell;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>7B6F176B-FC6F-457A-8D15-CF26722A1755</string>
