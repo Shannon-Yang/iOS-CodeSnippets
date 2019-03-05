@@ -3,34 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-refreshprivateselector</string>
+	<string>tableviewregisterHeaderFooterView</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - Private Selector
-
-private extension Selector {
-    
-    static let pullDownReload =
-        #selector(&lt;#ViewController#&gt;.pullDownReload)
-    static let pullUpReload =
-        #selector(&lt;#ViewController#&gt;.pullUpReload)
+	<string>-(void)registerHeaderFooterView {
+    [self.tableView registerNib:[UINib nibWithNibName:@"" bundle:nil] forHeaderFooterViewReuseIdentifier:NSStringFromClass([&lt;#instance#&gt; class])];
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>DD9A6928-F8B5-4C86-9192-BE1A4355273D</string>
+	<string>1342AEC5-12B5-4824-9E40-472FD73AA5C9</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Swift Refresh Private Selector</string>
+	<string>TableView RegisterHeaderFooterView</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift Refresh Private Selector</string>
+	<string>TableView RegisterHeaderFooterView</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

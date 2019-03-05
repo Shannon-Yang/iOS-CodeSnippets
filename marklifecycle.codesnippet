@@ -3,34 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-refreshactions</string>
+	<string>marklifecycle</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - Refresh Actions
-
-@objc func pullDownReload() {
-    
-}
-
-@objc func pullUpReload() {
-    
-}</string>
+	<string>#pragma mark - Lifecycle</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>CE3DC591-E18D-42A2-8428-89A2753B678A</string>
+	<string>F493438F-1F4C-4789-A12E-D3E9DB87D93B</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Swift Refresh Actions</string>
+	<string>Mark Lifecycle</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift Refresh Actions</string>
+	<string>Mark Lifecycle</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

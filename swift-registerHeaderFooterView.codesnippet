@@ -20,12 +20,12 @@
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Swift RegisterHeaderFooterView</string>
+	<string>Swift TableView RegisterHeaderFooterView</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift RegisterHeaderFooterView</string>
+	<string>Swift TableView RegisterHeaderFooterView</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>
