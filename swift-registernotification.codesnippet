@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>swift-registernotification</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>func registerNotification() {
+        NotificationCenter.default.addObserver(self, selector: #selector(didReceiveBindingSuccessViewControllerDidDismissNotification(notification:)), name: NSNotification.Name.BKLBindingSuccessViewControllerDidDismissNotification, object: nil)
+    }
+
+// MARK: - Notifications
+
+private extension &lt;#ViewController#&gt; {
+    
+    @objc func didReceiveBindingSuccessViewControllerDidDismissNotification(notification: NSNotification) {
+    }
+    
+}
+
+// MARK: - NSNotification.Name
+extension NSNotification.Name {
+    
+    static let BKLAccountInfoAvatarDidChangeNotification =  NSNotification.Name("BKLAccountInfoAvatarDidChangeNotification")
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>79D32E48-0716-42E9-A56D-635C0857D1D3</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Swift Register Notification</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Swift Register Notification</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
