@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>rxswift-attributedstringpickeradapter</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>private let attributedStringPickerAdapter = RxPickerViewAttributedStringAdapter&lt;&lt;#Components#&gt;&gt;(components: &lt;#Components#&gt;) { (dataSource, pickerView, _) -&gt; Int in
+            
+        } numberOfRowsInComponent: { (dataSource, pickerView, _, items) -&gt; Int in
+            return items.count
+        } attributedTitleForRow: { (adapter, pickerView, _, items, row) -&gt; String? in
+            return &lt;#NSAttributedString#&gt;
+        }
+        
+        Observable.just(&lt;#Section#&gt;)
+            .bind(to: &lt;#pickerView#&gt;.rx.items(adapter: attributedStringPickerAdapter))
+            .disposed(by: disposeBag)</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>EFFA0472-6B85-49C6-BAA5-663BD07B642E</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Rx Swift attributedStringPickerAdapter</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

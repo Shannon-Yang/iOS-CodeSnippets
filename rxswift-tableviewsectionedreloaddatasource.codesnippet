@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>rxswift-tableviewsectionedreloaddatasource</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>let dataSource = RxTableViewSectionedReloadDataSource&lt;&lt;#Setion#&gt;&gt;(animationConfiguration: AnimationConfiguration()) { (dataSource, tableView, indexPath, item) -&gt; UITableViewCell in
+            let cell = tableView.dequeueReusableCell(withIdentifier: &lt;#identifier#&gt;, for: indexPath)
+            guard let &lt;#customCellName#&gt; = cell as? &lt;#customCellType#&gt; else {
+                return cell
+            }
+            
+            &lt;#Configure Cell#&gt;
+            
+            return &lt;#customCellName#&gt;
+            
+        } titleForHeaderInSection: { (dataSource, index) -&gt; String? in
+            return &lt;#title#&gt;
+        } titleForFooterInSection: { (dataSource, index) -&gt; String? in
+            return &lt;#title#&gt;
+        }
+        
+        Observable.just(sections)
+            .bind(to: tableView.rx.items(dataSource: dataSource))
+            .disposed(by: disposeBag)</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>173A2940-1B54-4CF5-AEFB-0E98A781C58B</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Rx Swift TableViewSectionedReloadDataSource</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
