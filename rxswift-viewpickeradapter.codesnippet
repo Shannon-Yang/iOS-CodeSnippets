@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>rxswift-viewpickeradapter</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>private let viewPickerAdapter = RxPickerViewViewAdapter&lt;&lt;#Components#&gt;&gt;(components: &lt;#Components#&gt;) { (dataSource, pickerView, _) -&gt; Int in
+            
+        } numberOfRowsInComponent: { (dataSource, pickerView, _, items) -&gt; Int in
+            return items.count
+        } viewForRow: { (adapter, pickerView, _, items, row, view) -&gt; String? in
+            return &lt;#UIView#&gt;
+        }
+        
+        Observable.just(&lt;#Section#&gt;)
+            .bind(to: &lt;#pickerView#&gt;.rx.items(adapter: viewPickerAdapter))
+            .disposed(by: disposeBag)</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>FF08C4B5-F192-41FB-A424-D3D530438ACC</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Rx Swift viewPickerAdapter</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

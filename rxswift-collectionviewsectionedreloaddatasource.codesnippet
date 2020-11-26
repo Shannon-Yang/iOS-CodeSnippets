@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>rxswift-collectionviewsectionedreloaddatasource</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>let dataSource = RxCollectionViewSectionedReloadDataSource&lt;&lt;#Setion#&gt;&gt; { (dataSource, collectionView, indexPath, item) -&gt; UICollectionViewCell in
+            let cell = collectionView.dequeueReusableCellWithReuseIdentifier(&lt;#T##identifier: String##String#&gt;, forIndexPath: indexPath)
+            guard let &lt;#customCell#&gt; = cell as? &lt;#customCell#&gt; else {
+                return cell
+            }
+            return &lt;#customCell#&gt;
+        } configureSupplementaryView: { (dataSource, collectionView, string, indexPath) -&gt; UICollectionReusableView in
+            switch kind {
+            case UICollectionElementKindSectionHeader:
+                let headerView = collectionView.dequeueReusableSupplementaryViewOfKind(kind, withReuseIdentifier: &lt;#identifier#&gt;, forIndexPath: indexPath)
+                return headerView
+                
+            case UICollectionElementKindSectionFooter:
+                let footerView = collectionView.dequeueReusableSupplementaryViewOfKind(kind, withReuseIdentifier: &lt;#identifier#&gt;, forIndexPath: indexPath)
+                return footerView
+            default:
+                break
+            }
+        }
+        
+        Observable.just(sections)
+            .bind(to: collectionView.rx.items(dataSource: dataSource))
+            .disposed(by: disposeBag)</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>0B4708DE-6CB1-4ED9-9246-E90D5ABE0CBE</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Rx Swift CollectionViewSectionedReloadDataSource</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
