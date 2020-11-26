@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>rxswift-kvoobserve</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>_ = self.rx.observe(&lt;#Object#&gt;, &lt;#Key#&gt;)
+            .subscribe(onNext: { obj in
+                
+            })</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>2FAB3091-C618-40FC-A0E3-7130718D7B3B</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Rx Swift KVO Observe</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Rx Swift KVO Observe</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
