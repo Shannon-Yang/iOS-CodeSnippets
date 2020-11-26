@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@available( *, deprecated = 2.1, obsoleted = 2.1, message = "Because !", renamed = "")</string>
+	<string>@available(swift, deprecated: 4.0, obsoleted: 5.0, message: "Because !")</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>4593AAA0-A87B-4B9D-86BC-8ADE3126EDD6</string>
 	<key>IDECodeSnippetLanguage</key>
