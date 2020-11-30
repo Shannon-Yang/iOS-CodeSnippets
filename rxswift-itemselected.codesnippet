@@ -3,24 +3,29 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-debugmemoryaddressprint</string>
+	<string>rxswift-itemselected</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>debugPrint( "🔗🔗🔗🔗🔗 Memory Address ----&gt; \(Unmanaged.passUnretained(self).toOpaque()) &lt;---- &lt; Class: \(type(of: self)) Function:\(#function) Line: \(#line) &gt;🔗🔗🔗🔗🔗" )</string>
+	<string>tableView.rx.itemSelected.subscribe(onNext: { [weak self] indexPath in
+           
+            
+        }).disposed(by: disposeBag)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>296B1CD0-1BF0-45C7-B2AA-21C5204DA19F</string>
+	<string>3D7933D2-F8D0-4F3D-8E5D-EB6214018EB0</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift Debug Memory Address Print</string>
+	<string>Rx Swift itemSelected</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
