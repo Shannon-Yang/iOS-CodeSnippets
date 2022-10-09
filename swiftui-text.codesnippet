@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>swiftui-text</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>Text("SwiftUI")
+                .foregroundColor(.orange)
+                .bold()
+                .font(.system(.largeTitle))
+                .fontWeight(.medium)
+                .italic()
+                .shadow(color: .black, radius: 1, x: 0, y: 2).lineLimit(100)</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>395074CC-B767-40B3-ADD9-D07CA95B90BE</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>SwiftUI Text </string>
+	<key>IDECodeSnippetTitle</key>
+	<string>SwiftUI Text</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

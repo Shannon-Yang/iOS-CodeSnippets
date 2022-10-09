@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>swiftui-datepicker</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>var spaceDate: ClosedRange&lt;Date&gt;  {
+                    let soon = Calendar.current.date(byAdding: .year,
+                                                     value: -1,
+                                                     to: Date()) ?? Date()
+                    
+                    let later = Calendar.current.date(byAdding: .year,
+                                                      value: 1,
+                                                      to: Date()) ?? Date()
+                    let speaceDate = soon...later
+                    return speaceDate
+                }
+                
+                DatePicker(selection: &lt;#$server.date#&gt;, in: spaceDate, displayedComponents: .date, label: {
+                    Text("")
+                })</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>34264CFB-B7E7-4131-80CF-A1757FC5C0E9</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>SwiftUI DatePicker</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

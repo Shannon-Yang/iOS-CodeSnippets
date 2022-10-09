@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>swiftui-stepper</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>let step = 5
+            let range = 1...50
+
+            Stepper(value: &lt;#$value#&gt;,
+                    in: range,
+                    step: step, onEditingChanged: { changed in
+                print(changed)
+            }) {
+                Text("Current: \(value) in \(range.description) " +
+                     "stepping by \(step)")
+            }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>AE31B585-E87D-4DBA-95DA-C3C6AFD6F48E</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>SwiftUI Stepper</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>swiftui-textfield</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>@State var name: String = ""
+                TextField("", text: $name, onEditingChanged: { (changed) in
+                    print("onEditing: \(changed)")
+                }, onCommit: {
+                    print("userName: \(self.name)")
+                })</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>5C09CA20-3997-4BBE-8158-3928B925DDB6</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>SwiftUI TextField</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>SwiftUI TextField</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

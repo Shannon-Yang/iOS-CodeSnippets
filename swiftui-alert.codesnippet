@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>swiftui-alert</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>Alert(
+                title: Text("Unable to Save Workout Data"),
+                message: Text("The connection to the server was lost."),
+                primaryButton: .default(
+                    Text("Try Again"),
+                    action: {
+                        
+                    }
+                ),
+                secondaryButton: .destructive(
+                    Text("Delete"),
+                    action: {
+                        
+                    }
+                )
+            )</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>7384EF80-8CC9-41C4-8DC4-8BD9769F9521</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>SwiftUI Alert</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
