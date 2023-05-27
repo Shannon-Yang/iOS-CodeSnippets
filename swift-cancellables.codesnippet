@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>private var cancellables = Set&lt;AnyCancellable&gt; = []</string>
+	<string>private var cancellables = Set&lt;AnyCancellable&gt;()</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>C40D48F7-DCD1-4BF9-92D5-AFE2BCF924E9</string>
 	<key>IDECodeSnippetLanguage</key>
