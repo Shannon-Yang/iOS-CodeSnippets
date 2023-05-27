@@ -3,21 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-cancellables</string>
+	<string>swift-sink-main</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>private var cancellables = Set&lt;AnyCancellable&gt; = []</string>
+	<string>&lt;#Objcet#&gt;.$&lt;#Value#&gt;.receive(on: RunLoop.main).sink { [weak self] value in
+            
+        }.store(in: &amp;cancellables)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>C40D48F7-DCD1-4BF9-92D5-AFE2BCF924E9</string>
+	<string>DB5D81D7-3610-4429-8A39-64BCCC263818</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift Cancellables</string>
+	<string>Swift Sink In Main</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
