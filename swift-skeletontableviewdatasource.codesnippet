@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>swift-skeletontableviewdatasource</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>//MARK: - SkeletonTableViewDataSource
+extension &lt;#ViewController#&gt;: SkeletonTableViewDataSource {
+    func collectionSkeletonView(_ skeletonView: UITableView, numberOfRowsInSection section: Int) -&gt; Int {
+        return 10
+    }
+    
+    func collectionSkeletonView(_ skeletonView: UITableView, cellIdentifierForRowAt indexPath: IndexPath) -&gt; ReusableCellIdentifier {
+        return String(describing: &lt;#TableViewCell#&gt;.self)
+    }
+    
+    func collectionSkeletonView(_ skeletonView: UITableView, skeletonCellForRowAt indexPath: IndexPath) -&gt; UITableViewCell? {
+        let cell = skeletonView.dequeueReusableCell(withIdentifier: String(describing: &lt;#TableViewCell#&gt;.self), for: indexPath)
+        return cell
+    }
+    
+    func collectionSkeletonView(_ skeletonView: UITableView, prepareCellForSkeleton cell: UITableViewCell, at indexPath: IndexPath) {
+        
+    }
+}
+
+//MARK: - SkeletonTableViewDelegate
+extension &lt;#ViewController#&gt;: SkeletonTableViewDelegate {
+    func collectionSkeletonView(_ skeletonView: UITableView, identifierForHeaderInSection section: Int) -&gt; ReusableHeaderFooterIdentifier? {
+        
+    }
+    func collectionSkeletonView(_ skeletonView: UITableView, identifierForFooterInSection section: Int) -&gt; ReusableHeaderFooterIdentifier? {
+        
+    }
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>4D0B2AD9-7237-472D-AC56-480FCF8BFFE6</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Swift SkeletonTableViewDataSource &amp;&amp; SkeletonTableViewDelegat</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Swift SkeletonTableViewDataSource &amp;&amp; SkeletonTableViewDelegat</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

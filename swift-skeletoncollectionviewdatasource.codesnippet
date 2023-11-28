@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>swift-skeletoncollectionviewdatasource</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>//MARK: - SkeletonCollectionViewDataSource
+extension &lt;#ViewController#&gt;: SkeletonCollectionViewDataSource {
+    func collectionSkeletonView(_ skeletonView: UICollectionView, numberOfItemsInSection section: Int) -&gt; Int {
+        return 10
+    }
+    
+    func collectionSkeletonView(_ skeletonView: UICollectionView, cellIdentifierForItemAt indexPath: IndexPath) -&gt; ReusableCellIdentifier {
+        return String(describing: &lt;#CollectionViewCell#&gt;.self)
+    }
+    
+    func collectionSkeletonView(_ skeletonView: UICollectionView, supplementaryViewIdentifierOfKind: String, at indexPath: IndexPath) -&gt; ReusableCellIdentifier? {
+        return String(describing: &lt;#CollectionViewCell#&gt;.self)
+    }
+    
+    func collectionSkeletonView(_ skeletonView: UICollectionView, skeletonCellForItemAt indexPath: IndexPath) -&gt; UICollectionViewCell? {
+        let cell = skeletonView.dequeueReusableCell(withIdentifier: String(describing: &lt;#CollectionViewCell#&gt;.self), for: indexPath)
+        return cell
+    }
+    
+    func collectionSkeletonView(_ skeletonView: UICollectionView, prepareCellForSkeleton cell: UICollectionViewCell, at indexPath: IndexPath) {
+        
+    }
+    
+    func collectionSkeletonView(_ skeletonView: UICollectionView, prepareViewForSkeleton view: UICollectionReusableView, at indexPath: IndexPath) {
+        
+    }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>1DEB74A1-220B-45EF-92BD-B4B2B9E0D4D3</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>swift-skeletoncollectionviewdatasource</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Swift SkeletonCollectionViewDataSource</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
